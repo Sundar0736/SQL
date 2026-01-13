@@ -1,0 +1,16 @@
+-- Total students AGGREGATE functions
+SELECT COUNT(*) FROM Students;
+
+-- Department wise count
+SELECT department, COUNT(*) 
+FROM Students
+GROUP BY department;
+
+-- Only CSE students
+SELECT * FROM Students WHERE department = 'CSE';
+
+
+--UPDATE & DELETE
+
+UPDATE Students SET department='AI' WHERE student_id=10;
+DELETE FROM Students WHERE student_id=100;

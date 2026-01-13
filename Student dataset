@@ -1,0 +1,53 @@
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50)
+);
+INSERT INTO Students VALUES
+(1,'Ravi','CSE'), (2,'Manoj','ECE'), (3,'Priya','IT'), (4,'Arun','CSE'),
+(5,'Karthik','MECH'), (6,'Divya','IT'), (7,'Suresh','EEE'), (8,'Anitha','CSE'),
+(9,'Vijay','ECE'), (10,'Pooja','IT'),
+
+(11,'Ajith','CSE'), (12,'Nisha','ECE'), (13,'Rahul','IT'), (14,'Meena','CSE'),
+(15,'Santhosh','MECH'), (16,'Keerthi','EEE'), (17,'Prakash','IT'),
+(18,'Lakshmi','CSE'), (19,'Deepak','ECE'), (20,'Kavya','IT'),
+
+(21,'Surya','CSE'), (22,'Aarthi','IT'), (23,'Bala','ECE'),
+(24,'Hari','MECH'), (25,'Sowmiya','CSE'), (26,'Ganesh','EEE'),
+(27,'Monisha','IT'), (28,'Ramesh','CSE'), (29,'Yogesh','ECE'),
+(30,'Bhavani','IT'),
+
+(31,'Vasanth','CSE'), (32,'Anu','IT'), (33,'Kiran','ECE'),
+(34,'Murugan','MECH'), (35,'Harini','CSE'), (36,'Sathish','EEE'),
+(37,'Naveen','IT'), (38,'Roja','CSE'), (39,'Pradeep','ECE'),
+(40,'Iswarya','IT'),
+
+(41,'Kumar','CSE'), (42,'Mahalakshmi','IT'), (43,'Aravind','ECE'),
+(44,'Selvam','MECH'), (45,'Janani','CSE'), (46,'Ashok','EEE'),
+(47,'Revathi','IT'), (48,'Saravanan','CSE'), (49,'Nithin','ECE'),
+(50,'Preethi','IT'),
+
+(51,'Manikandan','CSE'), (52,'Swetha','IT'), (53,'Sanjay','ECE'),
+(54,'Raja','MECH'), (55,'Pavithra','CSE'), (56,'Dinesh','EEE'),
+(57,'Shalini','IT'), (58,'Balaji','CSE'), (59,'Vimal','ECE'),
+(60,'Uma','IT'),
+
+(61,'Rohit','CSE'), (62,'Fathima','IT'), (63,'Abishek','ECE'),
+(64,'Nagaraj','MECH'), (65,'Kalai','CSE'), (66,'Madhan','EEE'),
+(67,'Sridevi','IT'), (68,'Raghul','CSE'), (69,'Siva','ECE'),
+(70,'Megha','IT'),
+
+(71,'Ajay','CSE'), (72,'Nalini','IT'), (73,'Arjun','ECE'),
+(74,'Velmurugan','MECH'), (75,'Sneha','CSE'), (76,'Gopi','EEE'),
+(77,'Nandhini','IT'), (78,'Muthu','CSE'), (79,'Lokesh','ECE'),
+(80,'Rithika','IT'),
+
+(81,'Kannan','CSE'), (82,'Poornima','IT'), (83,'Vinoth','ECE'),
+(84,'Chandru','MECH'), (85,'Amala','CSE'), (86,'RaviKumar','EEE'),
+(87,'Yamini','IT'), (88,'Sathya','CSE'), (89,'Kishore','ECE'),
+(90,'Aishwarya','IT'),
+
+(91,'Tharun','CSE'), (92,'Deepika','IT'), (93,'Saran','ECE'),
+(94,'Ilango','MECH'), (95,'Madhu','CSE'), (96,'Sekar','EEE'),
+(97,'Nila','IT'), (98,'Prabhu','CSE'), (99,'Sanjana','ECE'),
+(100,'Varsha','IT');
